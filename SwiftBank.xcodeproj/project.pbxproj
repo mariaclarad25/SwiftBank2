@@ -33,7 +33,11 @@
 		188629DC2B8A29A400DA3CCD /* CreditCardSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188629DB2B8A29A400DA3CCD /* CreditCardSection.swift */; };
 		188629DF2B8A350400DA3CCD /* GenericSectionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188629DE2B8A350400DA3CCD /* GenericSectionResponse.swift */; };
 		188629E12B8A357A00DA3CCD /* GenericSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188629E02B8A357A00DA3CCD /* GenericSection.swift */; };
-		3F1D2C9FE024A6903BE41BF7 /* Pods_SwiftBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69522E7BD822A3577BE74194 /* Pods_SwiftBank.framework */; };
+		2156385698B8EC7F4E74BF0D /* Pods_SwiftBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7986F8689BC19AC034835BC /* Pods_SwiftBank.framework */; };
+		B79EE8652E9688BE0039A7A2 /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79EE8642E9688BE0039A7A2 /* NavigationRouter.swift */; };
+		B79EE8672E968A380039A7A2 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79EE8662E968A380039A7A2 /* Route.swift */; };
+		B79EE8692E96904A0039A7A2 /* PixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79EE8682E96904A0039A7A2 /* PixView.swift */; };
+		B79EE86B2E96949A0039A7A2 /* RouterHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79EE86A2E96949A0039A7A2 /* RouterHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,10 +68,14 @@
 		188629DB2B8A29A400DA3CCD /* CreditCardSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardSection.swift; sourceTree = "<group>"; };
 		188629DE2B8A350400DA3CCD /* GenericSectionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericSectionResponse.swift; sourceTree = "<group>"; };
 		188629E02B8A357A00DA3CCD /* GenericSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericSection.swift; sourceTree = "<group>"; };
-		4934690919BD5CE9B56AC3D9 /* Pods-SwiftBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBank.debug.xcconfig"; path = "Target Support Files/Pods-SwiftBank/Pods-SwiftBank.debug.xcconfig"; sourceTree = "<group>"; };
-		69522E7BD822A3577BE74194 /* Pods_SwiftBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E908F485B52FBAFC4F169D1 /* Pods-SwiftBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBank.debug.xcconfig"; path = "Target Support Files/Pods-SwiftBank/Pods-SwiftBank.debug.xcconfig"; sourceTree = "<group>"; };
+		B79EE8642E9688BE0039A7A2 /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
+		B79EE8662E968A380039A7A2 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		B79EE8682E96904A0039A7A2 /* PixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixView.swift; sourceTree = "<group>"; };
+		B79EE86A2E96949A0039A7A2 /* RouterHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterHandler.swift; sourceTree = "<group>"; };
 		B7CFB6AF2E95568F00E5BC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		E1C46646537908B2AFA68110 /* Pods-SwiftBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBank.release.xcconfig"; path = "Target Support Files/Pods-SwiftBank/Pods-SwiftBank.release.xcconfig"; sourceTree = "<group>"; };
+		D7986F8689BC19AC034835BC /* Pods_SwiftBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4EEF58707EA090AAA86C31 /* Pods-SwiftBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBank.release.xcconfig"; path = "Target Support Files/Pods-SwiftBank/Pods-SwiftBank.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F1D2C9FE024A6903BE41BF7 /* Pods_SwiftBank.framework in Frameworks */,
+				2156385698B8EC7F4E74BF0D /* Pods_SwiftBank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +96,7 @@
 				03BD4AA82B3CB26000341CE2 /* SwiftBank */,
 				03BD4AA72B3CB26000341CE2 /* Products */,
 				76F8D7E82ABDBA2519CA82EA /* Pods */,
-				62EC85CAB5AA3C27CDB06752 /* Frameworks */,
+				BF5199CE97E2C99ADF0BCBBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +115,7 @@
 				03BD4AA92B3CB26000341CE2 /* SwiftBankApp.swift */,
 				03BD4AB72B3CB2F500341CE2 /* Home */,
 				03E5D8EF2B45E25100B9BC9A /* Networking */,
+				B79EE8632E96888A0039A7A2 /* Navigation */,
 				03BD4AAD2B3CB26400341CE2 /* Assets.xcassets */,
 				03BD4AAF2B3CB26400341CE2 /* Preview Content */,
 			);
@@ -165,6 +174,7 @@
 				03E5D8DE2B42138600B9BC9A /* GenericView */,
 				03E5D8E62B425B9100B9BC9A /* Activities */,
 				188629D42B89232100DA3CCD /* GenericSectionView.swift */,
+				B79EE8682E96904A0039A7A2 /* PixView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -270,21 +280,31 @@
 			path = GenericSection;
 			sourceTree = "<group>";
 		};
-		62EC85CAB5AA3C27CDB06752 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				69522E7BD822A3577BE74194 /* Pods_SwiftBank.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		76F8D7E82ABDBA2519CA82EA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4934690919BD5CE9B56AC3D9 /* Pods-SwiftBank.debug.xcconfig */,
-				E1C46646537908B2AFA68110 /* Pods-SwiftBank.release.xcconfig */,
+				4E908F485B52FBAFC4F169D1 /* Pods-SwiftBank.debug.xcconfig */,
+				DA4EEF58707EA090AAA86C31 /* Pods-SwiftBank.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B79EE8632E96888A0039A7A2 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				B79EE8642E9688BE0039A7A2 /* NavigationRouter.swift */,
+				B79EE8662E968A380039A7A2 /* Route.swift */,
+				B79EE86A2E96949A0039A7A2 /* RouterHandler.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		BF5199CE97E2C99ADF0BCBBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7986F8689BC19AC034835BC /* Pods_SwiftBank.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,10 +314,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03BD4AB42B3CB26400341CE2 /* Build configuration list for PBXNativeTarget "SwiftBank" */;
 			buildPhases = (
-				FA4C9455DA6D971BF5CA76A8 /* [CP] Check Pods Manifest.lock */,
+				7255C0E68AED639EE4A7A4D1 /* [CP] Check Pods Manifest.lock */,
 				03BD4AA22B3CB26000341CE2 /* Sources */,
 				03BD4AA32B3CB26000341CE2 /* Frameworks */,
 				03BD4AA42B3CB26000341CE2 /* Resources */,
+				0ABB2915ACF2E1EC49200A3D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -354,7 +375,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		FA4C9455DA6D971BF5CA76A8 /* [CP] Check Pods Manifest.lock */ = {
+		0ABB2915ACF2E1EC49200A3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftBank/Pods-SwiftBank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftBank/Pods-SwiftBank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftBank/Pods-SwiftBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7255C0E68AED639EE4A7A4D1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -384,8 +422,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				03BD4ABD2B3CC72000341CE2 /* BalanceView.swift in Sources */,
+				B79EE86B2E96949A0039A7A2 /* RouterHandler.swift in Sources */,
 				03E5D8EE2B45E20F00B9BC9A /* HomeViewModel.swift in Sources */,
 				03E5D8FA2B45E50D00B9BC9A /* HTTPClient.swift in Sources */,
+				B79EE8652E9688BE0039A7A2 /* NavigationRouter.swift in Sources */,
 				188629C52B88EC2000DA3CCD /* HomeModel.swift in Sources */,
 				188629D32B891C9000DA3CCD /* BalanceResponse.swift in Sources */,
 				188629DA2B8A287F00DA3CCD /* CreditCardResponse.swift in Sources */,
@@ -399,6 +439,8 @@
 				188629C92B890E2F00DA3CCD /* SectionModel.swift in Sources */,
 				188629C72B88EC3F00DA3CCD /* TextModel.swift in Sources */,
 				188629E12B8A357A00DA3CCD /* GenericSection.swift in Sources */,
+				B79EE8672E968A380039A7A2 /* Route.swift in Sources */,
+				B79EE8692E96904A0039A7A2 /* PixView.swift in Sources */,
 				03E5D8E82B425BC700B9BC9A /* ActivitiesView.swift in Sources */,
 				188629D02B89154400DA3CCD /* DictionaryDecodable.swift in Sources */,
 				188629D72B89237600DA3CCD /* BalanceSection.swift in Sources */,
@@ -529,7 +571,7 @@
 		};
 		03BD4AB52B3CB26400341CE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4934690919BD5CE9B56AC3D9 /* Pods-SwiftBank.debug.xcconfig */;
+			baseConfigurationReference = 4E908F485B52FBAFC4F169D1 /* Pods-SwiftBank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -562,7 +604,7 @@
 		};
 		03BD4AB62B3CB26400341CE2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1C46646537908B2AFA68110 /* Pods-SwiftBank.release.xcconfig */;
+			baseConfigurationReference = DA4EEF58707EA090AAA86C31 /* Pods-SwiftBank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

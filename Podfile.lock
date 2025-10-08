@@ -1,3 +1,22 @@
-PODFILE CHECKSUM: 24f9a0a98781fa41399c68a8d54beff195cbcf85
+PODS:
+  - SBLoan (1.1.0)
+
+DEPENDENCIES:
+  - SBLoan (from `https://github.com/mariaclarad25/SBLoan.git`, branch `main`)
+
+EXTERNAL SOURCES:
+  SBLoan:
+    :branch: main
+    :git: https://github.com/mariaclarad25/SBLoan.git
+
+CHECKOUT OPTIONS:
+  SBLoan:
+    :commit: 128f2163a9210e66673d4fa4467c846116a40b87
+    :git: https://github.com/mariaclarad25/SBLoan.git
+
+SPEC CHECKSUMS:
+  SBLoan: aad8ac18bee384e56e00d501a93602d999806e99
+
+PODFILE CHECKSUM: 6b067e8d9c07ff03b9cb854d766c9e6cd0629c7a
 
 COCOAPODS: 1.16.2
