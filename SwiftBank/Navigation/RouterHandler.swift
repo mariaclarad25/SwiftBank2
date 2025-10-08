@@ -20,13 +20,38 @@ struct RouterHandler {
         
         guard let host = url.host() else { return nil }
         
+        //print(url.queryParameters)
+        
         switch DeeplinkURL(rawValue: host) {
         case .loan:
-            return .loan
+            
+            let queryParameters = url.queryParameters
+            
+            let id = queryParameters?["id"] as? String ?? ""
+            let amount = queryParameters?["amount"] as? String ?? ""
+            
+            return .loan(id: id, amount: amount)
         case .pix:
             return .pix
         default:
             return nil
+        }
+    }
+}
+
+extension Route: Hashable {
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(self.hashValue)
+    }
+    
+    static func == (lhs: Route, rsh: Route) -> Bool {
+        switch (lhs, rsh) {
+        case (.loan, .loan):
+            return true
+        case (.pix, .pix):
+            return true
+        default: 
+            return false
         }
     }
 }

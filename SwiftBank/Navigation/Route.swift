@@ -9,7 +9,7 @@ import SwiftUI
 import SBLoan
 
 enum Route {
-    case loan
+    case loan(id: String, amount: String)
     case pix
 }
 
@@ -17,8 +17,8 @@ extension Route: View {
     
     var body: some View {
         switch self {
-        case .loan:
-            SBLoanView()
+        case .loan(let id, let amount):
+            SBLoanView(amount)
         case .pix:
             PixView()
         }

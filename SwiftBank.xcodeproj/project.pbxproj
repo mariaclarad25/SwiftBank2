@@ -38,6 +38,7 @@
 		B79EE8672E968A380039A7A2 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79EE8662E968A380039A7A2 /* Route.swift */; };
 		B79EE8692E96904A0039A7A2 /* PixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79EE8682E96904A0039A7A2 /* PixView.swift */; };
 		B79EE86B2E96949A0039A7A2 /* RouterHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79EE86A2E96949A0039A7A2 /* RouterHandler.swift */; };
+		B79EE86D2E96AAEA0039A7A2 /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79EE86C2E96AAEA0039A7A2 /* URLExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		B79EE8662E968A380039A7A2 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		B79EE8682E96904A0039A7A2 /* PixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixView.swift; sourceTree = "<group>"; };
 		B79EE86A2E96949A0039A7A2 /* RouterHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterHandler.swift; sourceTree = "<group>"; };
+		B79EE86C2E96AAEA0039A7A2 /* URLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtension.swift; sourceTree = "<group>"; };
 		B7CFB6AF2E95568F00E5BC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D7986F8689BC19AC034835BC /* Pods_SwiftBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4EEF58707EA090AAA86C31 /* Pods-SwiftBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBank.release.xcconfig"; path = "Target Support Files/Pods-SwiftBank/Pods-SwiftBank.release.xcconfig"; sourceTree = "<group>"; };
@@ -249,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				188629CF2B89154400DA3CCD /* DictionaryDecodable.swift */,
+				B79EE86C2E96AAEA0039A7A2 /* URLExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 				188629C92B890E2F00DA3CCD /* SectionModel.swift in Sources */,
 				188629C72B88EC3F00DA3CCD /* TextModel.swift in Sources */,
 				188629E12B8A357A00DA3CCD /* GenericSection.swift in Sources */,
+				B79EE86D2E96AAEA0039A7A2 /* URLExtension.swift in Sources */,
 				B79EE8672E968A380039A7A2 /* Route.swift in Sources */,
 				B79EE8692E96904A0039A7A2 /* PixView.swift in Sources */,
 				03E5D8E82B425BC700B9BC9A /* ActivitiesView.swift in Sources */,
