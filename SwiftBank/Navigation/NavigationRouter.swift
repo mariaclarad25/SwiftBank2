@@ -13,6 +13,10 @@ final class NavigationRouter: ObservableObject {
     
     @Published var router = [Route]()
     
+    static let shered = NavigationRouter()
+    
+    private init() { }
+    
     // MARK: - Class methods
     
     func push(to screen: Route) {

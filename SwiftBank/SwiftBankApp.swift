@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct SwiftBankApp: App {
     
-    @ObservedObject private var routerManager = NavigationRouter()
+    @ObservedObject private var routerManager = NavigationRouter.shered
     
     var body: some Scene {
         WindowGroup {
