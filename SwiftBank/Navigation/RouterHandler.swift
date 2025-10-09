@@ -12,6 +12,7 @@ import Foundation
 enum DeeplinkURL: String {
     case loan = "loan"
     case pix = "pix"
+    case error = "error"
 }
 
 struct RouterHandler {
@@ -33,6 +34,8 @@ struct RouterHandler {
             return .loan(id: id, amount: amount)
         case .pix:
             return .pix
+        case .error:
+            return .error
         default:
             return nil
         }

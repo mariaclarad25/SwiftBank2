@@ -34,6 +34,7 @@
 		188629DF2B8A350400DA3CCD /* GenericSectionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188629DE2B8A350400DA3CCD /* GenericSectionResponse.swift */; };
 		188629E12B8A357A00DA3CCD /* GenericSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188629E02B8A357A00DA3CCD /* GenericSection.swift */; };
 		2156385698B8EC7F4E74BF0D /* Pods_SwiftBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7986F8689BC19AC034835BC /* Pods_SwiftBank.framework */; };
+		B791A4982E97CB2900948510 /* GenericErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B791A4972E97CB2900948510 /* GenericErrorView.swift */; };
 		B79EE8652E9688BE0039A7A2 /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79EE8642E9688BE0039A7A2 /* NavigationRouter.swift */; };
 		B79EE8672E968A380039A7A2 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79EE8662E968A380039A7A2 /* Route.swift */; };
 		B79EE8692E96904A0039A7A2 /* PixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79EE8682E96904A0039A7A2 /* PixView.swift */; };
@@ -70,6 +71,7 @@
 		188629DE2B8A350400DA3CCD /* GenericSectionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericSectionResponse.swift; sourceTree = "<group>"; };
 		188629E02B8A357A00DA3CCD /* GenericSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericSection.swift; sourceTree = "<group>"; };
 		4E908F485B52FBAFC4F169D1 /* Pods-SwiftBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBank.debug.xcconfig"; path = "Target Support Files/Pods-SwiftBank/Pods-SwiftBank.debug.xcconfig"; sourceTree = "<group>"; };
+		B791A4972E97CB2900948510 /* GenericErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericErrorView.swift; sourceTree = "<group>"; };
 		B79EE8642E9688BE0039A7A2 /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
 		B79EE8662E968A380039A7A2 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		B79EE8682E96904A0039A7A2 /* PixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixView.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				03E5D8E62B425B9100B9BC9A /* Activities */,
 				188629D42B89232100DA3CCD /* GenericSectionView.swift */,
 				B79EE8682E96904A0039A7A2 /* PixView.swift */,
+				B791A4972E97CB2900948510 /* GenericErrorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				03BD4ABD2B3CC72000341CE2 /* BalanceView.swift in Sources */,
 				B79EE86B2E96949A0039A7A2 /* RouterHandler.swift in Sources */,
 				03E5D8EE2B45E20F00B9BC9A /* HomeViewModel.swift in Sources */,
+				B791A4982E97CB2900948510 /* GenericErrorView.swift in Sources */,
 				03E5D8FA2B45E50D00B9BC9A /* HTTPClient.swift in Sources */,
 				B79EE8652E9688BE0039A7A2 /* NavigationRouter.swift in Sources */,
 				188629C52B88EC2000DA3CCD /* HomeModel.swift in Sources */,
